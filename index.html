@@ -561,5 +561,55 @@
         </div>
       </div>
     </footer>
+    <div class="overlay">
+      <div class="modal">
+        <button class="modal__close-btn"></button>
+        <form class="contact-form">
+          <h2 class="contact-form__title"></h2>
+          <label class="form-label">
+            Name
+            <input
+              type="text"
+              name="client_name"
+              id="client_name"
+              class="form-input"
+              required
+            />
+          </label>
+          <label class="form-label">
+            Phone
+            <input
+              type="tel"
+              name="client_tel"
+              id="client_tel"
+              class="form-input"
+            />
+          </label>
+          <label class="form-label">
+            Email
+            <input
+              type="email"
+              name="client_email"
+              id="client_email"
+              class="form-input"
+            />
+          </label>
+          <label class="form-label">
+            Comment
+            <textarea class="form-input" placeholder="Text input"></textarea>
+          </label>
+          <label class="form-label">
+            <input
+              type="checkbox"
+              name="client_terms_acceptance"
+              id="client_terms_acceptance"
+            />
+            I accept the terms and conditions of the
+            <a href="">Privacy Policy</a>
+          </label>
+          <button type="submit" class="form-button">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
