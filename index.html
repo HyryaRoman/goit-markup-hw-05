@@ -561,11 +561,17 @@
         </div>
       </div>
     </footer>
-    <div class="overlay">
+    <div class="overlay is-open">
       <div class="modal">
-        <button class="modal__close-btn"></button>
+        <button class="modal__close-btn">
+          <svg width="8" height="8" class="modal_close-icon">
+            <use href="images/icons.svg#icon-close-btn"></use>
+          </svg>
+        </button>
         <form class="contact-form">
-          <h2 class="contact-form__title"></h2>
+          <h2 class="contact-form__title">
+            Leave your contacts and we will call you back
+          </h2>
           <label class="form-label">
             Name
             <input
