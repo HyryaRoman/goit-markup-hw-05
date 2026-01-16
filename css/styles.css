@@ -214,9 +214,9 @@ img {
 }
 
 .form-checkbox {
-  width: 0;
+  /* width: 0;
   height: 0;
-  position: absolute;
+  position: absolute; */
 }
 
 .form-checkbox-decor {
@@ -703,6 +703,9 @@ img {
 }
 
 .contact-form__accept {
+  display: flex;
+  gap: 8px;
+
   margin-bottom: 24px;
 
   font-size: 12px;
