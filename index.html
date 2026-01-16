@@ -501,7 +501,7 @@
 
     <footer class="page-footer">
       <div class="container page-footer-container">
-        <div>
+        <div class="footer__about-block">
           <a href="./index.html" class="logo logo--dark page-footer__logo">
             <span class="logo__accent">Web</span>studio
           </a>
@@ -510,7 +510,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div>
+        <div class="footer__socials-block">
           <p class="page-footer__section-title">Social media</p>
           <ul class="page-footer__socials">
             <li>
@@ -559,6 +559,27 @@
             </li>
           </ul>
         </div>
+        <div class="footer__subscribe-block">
+          <p class="page-footer__section-title">Subscribe</p>
+          <form class="subscribe-form form--dark-theme">
+            <label class="form-label subscribe-form__email">
+              <span class="visually-hidden">E-mail</span>
+              <input
+                type="email"
+                name="subscribe-email"
+                id="subscribe-email"
+                class="form-input"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="form-button form-button--small">
+              Subscribe
+              <svg width="24" height="24" class="form-button__icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="overlay" data-modal>
@@ -583,8 +604,8 @@
                 </span>
                 <input
                   type="text"
-                  name="client_name"
-                  id="client_name"
+                  name="client-name"
+                  id="client-name"
                   class="form-input"
                   required
                 />
@@ -600,8 +621,8 @@
                 </span>
                 <input
                   type="tel"
-                  name="client_tel"
-                  id="client_tel"
+                  name="client-tel"
+                  id="client-tel"
                   class="form-input"
                 />
               </div>
@@ -616,8 +637,8 @@
                 </span>
                 <input
                   type="email"
-                  name="client_email"
-                  id="client_email"
+                  name="client-email"
+                  id="client-email"
                   class="form-input"
                 />
               </div>
@@ -626,7 +647,8 @@
               <span class="form-label-text">Comment</span>
               <textarea
                 class="form-input contact-form__comment"
-                name="client_comment"
+                name="client-comment"
+                id="client-comment"
                 placeholder="Text input"
               ></textarea>
             </label>
@@ -634,8 +656,8 @@
           <label class="form-label contact-form__accept">
             <input
               type="checkbox"
-              name="client_terms_acceptance"
-              id="client_terms_acceptance"
+              name="client-terms-acceptance"
+              id="client-terms-acceptance"
               class="form-checkbox"
             />
             <span class="form-checkbox-decor">
