@@ -712,13 +712,13 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--light-slate);
+}
 
-  a {
-    line-height: 1.33;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: var(--iris);
-  }
+.contact-form__accept a {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--iris);
 }
 
 .visually-hidden {
