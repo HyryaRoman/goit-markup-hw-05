@@ -609,6 +609,10 @@ img {
   max-width: 264px;
 }
 
+.subscribe-form__input:focus {
+  border-color: var(--green);
+}
+
 .subscribe-form .form-input {
   padding-left: 16px;
 }
@@ -618,6 +622,11 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   color: var(--white);
+}
+
+.subscribe-form__button:hover,
+.subscribe-form__button:focus {
+  background-color: var(--green);
 }
 
 .overlay {
